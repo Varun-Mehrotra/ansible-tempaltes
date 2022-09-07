@@ -1,0 +1,5 @@
+Running a Playbook: 
+ansible-playbook -i /home/ansible/inventory /home/ansible/git-setup.yml
+
+Putting Ping commands into a text file: 
+ansible -i /home/ansible/inventory node1 -m ping > /home/ansible/output
